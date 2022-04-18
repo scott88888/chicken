@@ -1,0 +1,157 @@
+
+.rightTop1 {
+    position: fixed;
+    top: 3%;
+    right: 15%;
+    text-align: right;
+
+}
+
+.rightTop2 {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+    text-align: right;
+}
+
+.leftTop {
+    position: fixed;
+    top: 0;
+    text-align: left;
+
+}
+
+@media (min-width: 1500px) {
+
+    table {
+        font-size: 2rem !important;
+    }
+}
+
+@media (min-width: 981px) {
+    .modal {
+        top: 20%;
+    }
+
+
+    .modal-dialog {
+        max-width: 780px;
+        margin: 1.75rem auto;
+        border: 0px;
+    }
+
+    .modal-content {
+        border: 0px;
+        background-color: transparent;
+
+    }
+
+    td {
+        padding: 2%;
+    }
+
+    button {
+        border: 0px orange double;
+        background-color: transparent;
+    }
+
+    table {
+        margin: 0px 5%;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #836253;
+        background-color: white;
+        font-weight: 700;
+        width: 90%;
+    }
+
+    .topImg {
+        text-align: right;
+        padding: 1%;
+    }
+
+    .topWidth {
+        width: 5%;
+    }
+
+    .leftImgTop {
+        width: 35%;
+    }
+
+    .pcMargin {
+        margin: 0% 20%;
+    }
+
+    .textFont {
+        font-size: 1rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        padding: 8%;
+        color: #A18071;
+    }
+
+    .textFont2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 980px) {
+    .modal {
+        top: 20%;
+    }
+
+
+    .modal-dialog {
+        max-width: 780px;
+        margin: 1.75rem auto;
+        border: 0px;
+    }
+
+    .modal-content {
+        border: 0px;
+        background-color: transparent;
+
+    }
+
+    td {
+        padding: 2%;
+    }
+
+    button {
+        border: 0px orange double;
+        background-color: transparent;
+    }
+
+    table {
+        margin: 0px 5%;
+        font-size: 2rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: #836253;
+        background-color: white;
+        font-weight: 700;
+        width: 90%;
+    }
+
+    .topImg {
+        text-align: right;
+        padding: 5%;
+    }
+
+    .topWidth {
+        width: 13%;
+    }
+
+    .leftImgTop {
+        width: 65%;
+    }
+
+    .textFont {
+        font-size: 1.5rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        padding: 8%;
+        color: #A18071;
+    }
+
+    .textFont2 {
+        font-size: 3rem;
+    }
+}
